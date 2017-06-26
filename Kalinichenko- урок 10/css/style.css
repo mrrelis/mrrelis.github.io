@@ -1,0 +1,41 @@
+.mmm{
+	border: 3px solid ;
+	background: black;
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+
+
+
+}
+.nav{
+	color: white;
+display: inline-block;
+padding-right:  50px;
+
+
+}
+.lorem{
+	display: block;
+	padding-top: 30px;
+
+}
+.block{
+width: 400px;
+height: 300px;
+border: solid 2px;
+padding: 0px;
+position: absolute;
+left: 50%;
+margin-left: -200px;
+top: 50%;
+margin-top: -150px;	
+
+}
+.box_in{
+	border: inset 2px #C7C3C3;
+	width: 50%;
+	height: 100%;
+	padding:  20px 30px 20px 30px;
+
+
