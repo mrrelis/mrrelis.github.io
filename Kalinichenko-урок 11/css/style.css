@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'OpenSansSemibold_1';
+    src: url('../fonts/OpenSansSemibold_1.eot');
+    src: url('../fonts/OpenSansSemibold_1.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemibold_1.woff2') format('woff2'),
+         url('../fonts/OpenSansSemibold_1.woff') format('woff'),
+         url('../fonts/OpenSansSemibold_1.ttf') format('truetype'),
+         url('../fonts/OpenSansSemibold_1.svg#OpenSansSemibold_1') format('svg');
+}
+body{
+	margin-top: 82px;
+}
+
+.main-logo{
+	font-family: 'OpenSansSemibold_1';
+	font-size:37px;
+	color:#706b73;
+	border: 3px solid #706b73;
+	width: 155px;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+
+
+
+
+
+}
+.logo-S{
+color:#fa9a87;
+}
+.line-burger{
+	display: inline-block;
+	position: absolute;
+	width: 35px;
+	height: 4px;
+	background-color: #706b73; 
+	position: absolute;
+	top: 25px;
+	float: right;
+
+}
+
+
+.line-burger:before{
+	display: inline-block;
+	position: absolute;
+	right: 0px	;
+	content: '';
+	width: 35px;
+	height: 4px;
+	background-color: #706b73;
+	-webkit-transform: translateY(7px)
+	-ms-transform: translateY(7px);
+	-o-transform: translateY(7px);
+	transform: translateY(7px);
+}
+.main-burger{
+	text-align:right;
+}
+.line-burger:after{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	content: '';
+	width: 35px;
+	height: 4px;
+	background-color: #706b73;
+	-webkit-transform: translateY(-7px)
+	-ms-transform: translateY(-7px);
+	-o-transform: translateY(-7px);
+	transform: translateY(-7px);
